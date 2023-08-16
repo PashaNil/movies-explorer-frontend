@@ -1,0 +1,158 @@
+.profile {
+  margin: 0;
+  padding: 0;
+}
+
+.profile__title {
+  margin: 74px 0 0 0;
+  padding: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__form {
+  margin: 123px auto 0 auto;
+  padding: 0;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__label {
+  margin: 0;
+  padding: 0 0 17px 0;
+  border: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  border-bottom: 1px solid #424242;
+}
+
+.profile__label:last-of-type {
+  margin: 17px 0 0 0;
+  padding: 0;
+  border: none;
+}
+
+.profile__input {
+  /* margin: 0 0 0 147px; */
+  margin: 0;
+  padding: 0;
+  /* width: 122px; */
+  border: none;
+  background-color: #202020;
+  text-align: right;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profile__error-form {
+  margin: 188px 0 0 0;
+  padding: 0;
+  color: #FF004C;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  min-height: 13px;
+}
+
+.profile__btn {
+  margin: 20px 0 0 0;
+  padding: 0;
+  border: none;
+  background-color: #202020;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.profile__btn_disabled {
+  color: #C2C2C2;
+  opacity: .8;
+}
+
+.profile__btn-exit {
+  margin: 16px 0 0 0;
+  padding: 0;
+  color: #EE3465;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  border: none;
+  background-color: #202020;
+  cursor: pointer;
+}
+
+.profile__btn:hover,
+.profile__btn-exit:hover {
+  transition: opacity .3s;
+  opacity: .7;
+}
+
+@media screen and (max-width:1100px) {
+  .profile__title {
+    margin-top: 236px;
+  }
+
+  .profile__form {
+    margin-top: 96px;
+  }
+
+  .profile__error-form {
+    margin-top: 178px;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .profile__title {
+    margin-top: 70px;
+  }
+
+  .profile__form {
+    margin-top: 80px;
+    width: 260px;
+  }
+
+  .profile__label {
+    gap: 10px;
+  }
+
+  .profile__error-form {
+    margin-top: 347px;
+  }
+
+  .profile__btn {
+    font-size: 12px;
+  }
+
+  .profile__btn-exit {
+    font-size: 12px;
+  }
+}
