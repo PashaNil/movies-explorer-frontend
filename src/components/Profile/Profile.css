@@ -15,7 +15,7 @@
 }
 
 .profile__form {
-  margin: 123px auto 0 auto;
+  margin: 123px auto 70px auto;
   padding: 0;
   width: 410px;
   display: flex;
@@ -46,10 +46,8 @@
 }
 
 .profile__input {
-  /* margin: 0 0 0 147px; */
   margin: 0;
   padding: 0;
-  /* width: 122px; */
   border: none;
   background-color: #202020;
   text-align: right;
@@ -123,6 +121,7 @@
 
   .profile__form {
     margin-top: 96px;
+    margin-bottom: 269px;
   }
 
   .profile__error-form {
@@ -137,6 +136,7 @@
 
   .profile__form {
     margin-top: 80px;
+    margin-bottom: 40px;
     width: 260px;
   }
 

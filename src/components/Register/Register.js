@@ -4,7 +4,7 @@ import Input from "../Input/Input";
 
 function Register() {
   return (
-    <div className="register">
+    <main className="register">
       <Form
         title={"Добро пожаловать!"}
         btnText={"Зарегистрироваться"}
@@ -17,7 +17,7 @@ function Register() {
         <Input labelText={"E-mail"} type={"email"} id={"email"} name={"email"} err={""} value={"pochta@yandex.ru|"}/>
         <Input labelText={"Пароль"} type={"password"} id={"password"} name={"password"} err={"Что-то пошло не так..."} value={"••••••••••••••"}/>
       </ Form>
-    </div>
+    </main>
   )
 }
 

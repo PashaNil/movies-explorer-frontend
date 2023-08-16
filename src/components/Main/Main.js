@@ -7,14 +7,16 @@ import Footer from "../Footer/Footer.js"
 
 function Main({ loggedIn }) {
   return (
+    <>
+    <Header loggedIn={loggedIn} />
     <main>
-      <Header loggedIn={loggedIn} />
       <Promo />
       <AboutProject />
       <Techs />
       <AboutMe />
-      <Footer />
     </main>
+    <Footer />
+    </>
   );
 }
 
