@@ -58,7 +58,7 @@
 
 .moviesCard__choice {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 11px;
   width: 16px;
   height: 16px;
   border: 2px solid #fff;
@@ -67,7 +67,7 @@
   cursor: pointer;
 }
 
-.moviesCard__choice:active {
+.moviesCard__choice_active {
   background-color: #2BE080;
 }
 

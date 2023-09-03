@@ -25,18 +25,14 @@
   border-radius: 8px;
 }
 
-.input__input_error {
-  color: #EE3465;
-}
-
 .input__error {
   margin: 10px 0 0 0;
   padding: 0;
+  min-height: 12px;
   color: #EE3465;
   font-family: Inter;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  min-height: 12px;
 }

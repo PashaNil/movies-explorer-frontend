@@ -1,17 +1,17 @@
 import "./AboutMe.css";
 import MainTitleLine from "../MainTitleLine/MainTitleLine.js";
 import Portfolio from "../Portfolio/Portfolio";
-import imgStudent from "../../images/imgStugent2.jpg"
+import imgStudent from "../../images/imgStudent.jpg"
 
 function AboutMe() {
   return (
     <section className="aboutMe">
       <MainTitleLine text={"Студент"} />
       <img className="aboutMe__student-img" src={imgStudent} alt="Фотография студента" />
-      <h2 className="aboutMe__student-name">Виталий</h2>
-      <p className="aboutMe__student-job">Фронтенд-разработчик, 30 лет</p>
+      <h2 className="aboutMe__student-name">Павел</h2>
+      <p className="aboutMe__student-job">Фронтенд-разработчик, 28 лет</p>
       <p className="aboutMe__student-description">
-      Я&nbsp;родился и&nbsp;живу в&nbsp;Саратове, закончил факультет экономики СГУ. У&nbsp;меня есть жена и&nbsp;дочь. Я&nbsp;люблю слушать музыку, а&nbsp;ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года работал в&nbsp;компании &laquo;СКБ Контур&raquo;. После того, как прошёл курс по&nbsp;веб-разработке, начал заниматься фриланс-заказами и&nbsp;ушёл с&nbsp;постоянной работы.
+      Я&nbsp;родился и&nbsp;живу в&nbsp;Пскове, обучался по&nbsp;направлениям &laquo;Информационные технологии&raquo; и&nbsp;&laquo;Управление персоналом&raquo;, работал в&nbsp;итоге фотографом и&nbsp;вокалистам в&nbsp;cover-band коллективе. Увлекаюсь плаваньем в&nbsp;бассейне, музыкальными инструментами и&nbsp;путешествиями. Со&nbsp;временем понял, что хочу работать по&nbsp;диплому и&nbsp;решил пройти курс по&nbsp;веб-разработке, узнал много нового и&nbsp;теперь стремлюсь стать полноценным разработчиком.
       </p>
       <a
         className="aboutMe__student-github-link"

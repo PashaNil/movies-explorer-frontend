@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.header_main {
+.header_blue {
   background-color: #073042;
 }
 
@@ -95,6 +95,10 @@
   cursor: pointer;
   width: 44px;
   height: 44px;
+}
+
+.header__button-menu_blue {
+  background-color: #073042;
 }
 
 .header__menu-img {

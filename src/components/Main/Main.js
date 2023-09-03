@@ -8,14 +8,14 @@ import Footer from "../Footer/Footer.js"
 function Main({ loggedIn }) {
   return (
     <>
-    <Header loggedIn={loggedIn} />
-    <main>
-      <Promo />
-      <AboutProject />
-      <Techs />
-      <AboutMe />
-    </main>
-    <Footer />
+      <Header loggedIn={loggedIn} />
+      <main>
+        <Promo />
+        <AboutProject />
+        <Techs />
+        <AboutMe />
+      </main>
+      <Footer />
     </>
   );
 }

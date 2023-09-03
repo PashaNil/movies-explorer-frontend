@@ -4,7 +4,7 @@ import MainTitleLine from "../MainTitleLine/MainTitleLine.js";
 function AboutProject() {
   return (
     <section className="about-project">
-      <MainTitleLine text={"О проекте"}/>
+      <MainTitleLine text={"О проекте"} />
       <ul className="about-project__table">
         <li>
           <h3 className="about-project__table-title">Дипломный проект включал 5 этапов</h3>

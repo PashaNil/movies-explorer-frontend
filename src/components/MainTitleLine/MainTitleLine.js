@@ -1,7 +1,7 @@
 import "./MainTitleLine.css";
 
-function MainTitleLine({text}){
-  return(
+function MainTitleLine({ text }) {
+  return (
     <p className="title-line">{text}</p>
   );
 }
